@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likith Sai Ram - Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #333; color: white; text-align: center; padding: 15px; }
+        section { padding: 20px; max-width: 800px; margin: auto; }
+        .skills, .projects { display: flex; flex-wrap: wrap; gap: 10px; }
+        .skill, .project { background: #f4f4f4; padding: 10px; border-radius: 5px; flex: 1; min-width: 200px; }
+        .contact-form input, .contact-form textarea { width: 100%; padding: 8px; margin: 5px 0; }
+        .contact-form button { padding: 10px; background: #333; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Likith Sai Ram</h1>
+        <p>Creative Technologist | C | Python | DBMS</p>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>I am a creative technologist specializing in C and Python. My goal is to secure a responsible career opportunity with a reputable company, where I can utilize my skills to the maximum while making a significant contribution.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">C</div>
+            <div class="skill">Python</div>
+            <div class="skill">DBMS</div>
+        </div>
+    </section>
+    <section>
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project"><strong>ATM Interface</strong><br>A Python-based application that simulates an ATM system, allowing users to check balances, withdraw cash, and deposit money. This project is designed to replicate the core functionalities of an ATM while ensuring a user-friendly interface. It includes features like PIN authentication, balance inquiries, cash withdrawals, and deposit transactions. The system is built using Python and follows security best practices to protect user credentials and data.</div>
+            <div class="project"><strong>Mini Fire Engine</strong><br>A miniature fire engine model developed using Arduino, capable of detecting and extinguishing small fires using sensors and water spray mechanisms. This project aims to provide a prototype for a compact fire-fighting robot that can operate in confined spaces. The system is equipped with flame sensors that detect fire and trigger a water-spraying mechanism, making it a valuable tool for fire safety research.</div>
+            <div class="project"><strong>IoT Home Automation</strong><br>An anti-theft security system using Node MCU that enables remote monitoring and control of home appliances through IoT technology. This project integrates motion sensors, smart locks, and a mobile app to allow users to monitor and secure their homes remotely. It provides real-time alerts in case of unauthorized entry, adding an extra layer of security to modern smart homes.</div>
+            <div class="project"><strong>Laser Tripwire Security Alarm</strong><br>A security system using Raspberry Pi that triggers an alarm when a laser tripwire is interrupted, enhancing safety in restricted areas. This system is widely applicable in security-sensitive zones such as banks, museums, and warehouses. The tripwire is created using a laser beam and a light sensor, which immediately activates an alarm when the beam is blocked, effectively alerting security personnel to potential intrusions.</div>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:likithsairam15@gmail.com">likithsairam15@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/guri-likith-sai-ram-07a352289/" target="_blank">My LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/partnerinacrime" target="_blank">My GitHub</a></p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+</body>
+</html>
